@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+
+<html lang = "en-us">
+	<head>
+		<title>Technology - BBC News</title>
+		
+		<style type = "text/css">
+		
+			#topbar{
+				width: 1000px;
+				height: 40px;
+				//background-color: yellow;
+				margin: 0 auto;
+			}
+			
+			body{
+				margin: 0;
+				padding: 0;
+				font-family: Helvetica,Arial,sans-serif;
+			}
+			
+			#logo{
+				margin-top: 7px;
+				width: 85px;
+				float: left;
+				margin-right: 7px;
+			}
+			
+			.top-section{
+				float: left;
+				height: 100%;
+				border-left: 1px #CCCCCC solid;
+				text-decoration: none;
+				color: black;
+			}
+			
+			#topbar a:hover{
+				text-decoration: underline;
+			}
+			
+			#signin-image{
+				width: 33px;
+				height: 27px;
+				margin-top: 5px;
+				margin-left: 6px;
+				float: left;
+			}
+			
+			#signin-text{
+				font-weight: bold;
+				font-size: 13px;
+				margin-left: 5px;
+				position: relative;
+				top: 5px;
+				margin-right: 75px;
+			}
+			
+			.topbar-menu{
+				font-weight: bold;
+				font-size: 67%;
+				padding: 10px 12px 0 12px;
+				height: 30px;
+			}
+			
+			#downarrow{
+				width: 20px;
+				margin: 0px -8px 10px 40px;
+				float: right;
+			}
+			
+			#searchbox{
+				background-color: #E4E4E4;
+				float: left;
+				border: none;
+				font-weight: bold;
+				padding: 5px;
+				margin: 7px 0px 7px 7px;
+			}
+			
+			#magnifyingglass{
+				width: 30px;
+				height: 26.5px;
+				margin-top: 7px;
+			}
+			
+			.clear{
+				clear: both;
+			}
+			
+			#menu-bar-container{
+				background-color: #BB1919;
+				width: 100%;
+				height: 60px;
+			}
+			
+			.menu-bar{
+				width: 1000px;
+				margin: 0 auto;
+			}
+			
+			#newsimage{
+				width: 130px;
+				margin: 9px -5.5px;
+				float: left;
+			}
+			
+			#local-news{
+				border: 1px #C0392B solid;
+				float: right;
+				background-color: #C0392B;
+				height: 35px;
+				padding: 5px 5px 0px 10px;
+				margin: 8px 10px 0 0;
+			}
+			
+			#local-news img{
+				width: 30px;
+			}
+			
+			#local-news a{
+				color: white;
+				text-decoration: none;
+				font-size: 20px;
+				position: relative;
+				top: -8px;
+				//float: right;
+			}
+			
+			#local-news a:hover{
+				text-decoration: underline;
+			}
+			
+			#second-menubar{
+				width: 100%;
+				background-color: #A91717;
+				height: 43px;
+				margin: 0 auto;
+			}
+			
+			.secondbar-menu{
+				color: white;
+				border-right: 1.5px #BB4545 solid;
+				font-size: 15px;
+				padding: 1px 14px 1px 0;
+				position: relative;
+				top: 4px;
+				text-decoration: none;
+			}
+			
+			.left-allign{
+				padding-left: 7px;
+			}
+			
+			.menu-bar a:hover{
+				text-decoration: underline;
+			}
+			
+			.no-border{
+				border-right: none;
+			}
+			
+			#downarrowimage2{
+				height: 24px;
+				position: relative;
+				top: 12px;
+				left: -18px;
+			}
+			
+			#page-container{
+				width: 1000px;
+				margin: 0 auto;
+			}
+			
+			h2 {
+				width: 100px;
+				font-weight: normal;
+				font-size: 20px;
+				margin-top: 10px;
+				border-bottom: 3px #BB1919 solid;
+			}
+			
+			#page-container h3 a{
+				font-size: 30px;
+				color: black;
+				margin-top: 10px;
+				text-decoration: none;
+			}
+			
+			#caption-container {
+				font-size: 15px;
+				width: 250px;
+			}
+			
+			#caption-container a{
+				text-decoration:none;
+				color: #5A5A5A;
+			}
+			
+			#caption-container img{
+				width: 20px;
+				margin: 5px 0 3px 0;
+				float: left;
+			}
+			
+			#caption-container span{
+				position: relative;
+				left: 2px;
+				top: 7px;
+				font-size: 14px;
+			}
+		</style>
+		
+	</head>
+	
+	
+	<body>
+		<div id = "topbar">
+			<img id = "logo" src = "image/bbclogo.png">
+			
+			<a id = "signin-div" class = "top-section" href = "">
+				<img id = "signin-image" src = "image/signinimage.png" > 
+				<span id = "signin-text"> Sign in</span>
+			</a>
+			
+			<a class = "top-section topbar-menu" href = "">
+				News
+			</a>
+			<a class = "top-section topbar-menu" href = "">
+				Sport
+			</a>
+			<a class = "top-section topbar-menu" href = "">
+				Weather
+			</a>
+			<a class = "top-section topbar-menu" href = "">
+				Shop
+			</a>
+			<a class = "top-section topbar-menu" href = "">
+				Earth
+			</a>
+			<a class = "top-section topbar-menu" href = "">
+				More
+				<img id = "downarrow" src = "image/downarrowimage.png">
+			</a>
+
+			<div class = "top-section">
+				<input id = "searchbox" type = "text" placeholder = "Search">
+				<input type = "image" id = "magnifyingglass" src = "image/magnifyingglass.png">
+			</div>
+			
+		</div>
+		
+		<div class = "clear"></div>
+		
+		<div id = "menu-bar-container">
+			<div class = "menu-bar">
+				<img id = "newsimage" src = "image/newsimage.png">
+				<div id = "local-news">
+					<a href = "">Find local news</a>
+					<img src = "image/markerbbc.png">
+				</div>
+			</div>
+		</div>
+		
+		<div class = "clear"></div>
+		
+		<div id = "second-menubar">
+			<div class = "menu-bar">
+				<a class = " secondbar-menu " href = "">Home</a>
+				<a class = " secondbar-menu left-allign" href = "">Video</a>
+				<a class = " secondbar-menu left-allign" href = "">World</a>
+				<a class = " secondbar-menu left-allign" href = "">US & Canada</a>
+				<a class = " secondbar-menu left-allign" href = "">UK</a>
+				<a class = " secondbar-menu left-allign" href = "">Business</a>
+				<a class = " secondbar-menu left-allign" href = "">Tech</a>
+				<a class = " secondbar-menu left-allign" href = "">Science</a>
+				<a class = " secondbar-menu left-allign" href = "">Magazine</a>
+				<a class = " secondbar-menu left-allign" href = "">Entertainment & Arts</a>
+				<a class = " secondbar-menu left-allign" href = "">Health</a>
+				
+				<a class = " secondbar-menu no-border" href = "">More</a>
+				
+				<img id = "downarrowimage2" src = "image/downarrowimage2.png">
+				
+				
+			</div>
+		</div>
+		
+		<div class = "clear"></div>
+		
+		<div id = "page-container">
+				
+				<h2>Technology</h2>
+				
+				<h3><a href = "">Android Oreo released by Google</a></h3>
+				
+				<div id = "caption-container">
+					<a href = "">The lastest version of Android adds new features to help 
+					people tackle "notification diarrhoea".
+					<br />
+					
+					<img src = "image/clock.png">
+					<span>5 hours ago</span>
+					</a>
+				
+					
+				
+		</div>
+	</body>
+</html>
