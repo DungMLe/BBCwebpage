@@ -166,9 +166,15 @@
 				left: -18px;
 			}
 			
-			#page-container{
-				width: 1000px;
+			#main-page{
 				margin: 0 auto;
+				width: 1000px;
+			}
+			
+			#page-container{
+				width: 670px;
+				float:left;
+				
 			}
 			
 			h2 {
@@ -180,33 +186,180 @@
 			}
 			
 			#page-container h3 a{
-				font-size: 30px;
-				color: black;
+				font-size: 32px;
+				color: #5A5A5A;
 				margin-top: 10px;
 				text-decoration: none;
 			}
 			
-			#caption-container {
+			#page-container h3 a:hover{
+				color: #1167A8;
+			}
+			
+			#article-summary {
 				font-size: 15px;
 				width: 250px;
+				float:left;
 			}
 			
-			#caption-container a{
+			#summary{
 				text-decoration:none;
 				color: #5A5A5A;
+				position: relative;
+				top: -7px;
 			}
 			
-			#caption-container img{
+			#article-summary img{
 				width: 20px;
-				margin: 5px 0 3px 0;
+				margin: 4px 0 3px 0;
 				float: left;
 			}
 			
-			#caption-container span{
+			#article-summary span{
 				position: relative;
 				left: 2px;
 				top: 7px;
 				font-size: 14px;
+				padding-right: 7px;
+			}
+			
+			.right-border{
+				border-right: 1px #DCDCDC solid;
+				float:left;
+			}
+			
+			.tech-link{
+				color: #BB1919;
+				position: relative;
+				left: 9px;
+				top: 7px;
+				font-size: 14px;
+				padding: 1px 7px 0px 0;
+				text-decoration: none;
+			}
+			
+			.tech-link:hover{
+				color: #1191CE;
+			}
+			
+			#comment-img{
+				position:relative;
+				left: 13px;
+				top:-3px;
+				float: right;
+			}
+			
+			#comment-link {
+				text-decoration:none;
+				color: black;
+			}
+			
+			#comment-link span{
+				position: relative;
+				left: 14px;
+				top: 7px;
+			}
+			
+			#main-article-image{
+				width: 400px;
+				position: relative;
+				top: -10px;
+				left: 13px;
+			}
+			
+			#article-hr{
+				width: 50px;
+				border-color: red;
+			}
+			
+			#right-panel-articles{
+				width: 320x;
+				float: right;
+				
+			}
+			
+			#ad{
+				width: 105px;
+				color: #505050;
+				font-size: 12px;
+				font-weight: bold;
+				position: relative;
+				top: 60px;
+				left: 107.5px;
+			}
+			
+			#watch-listen-container{
+				border-left: 1px #DBDBDB solid;
+				height: 800px;
+				width: 320px;
+				position: relative;
+				top: 95px;
+			}
+			
+			#watch-listen-container p{
+				position: relative;
+				left: 15px;
+				font-size: 125%;
+				color: #404040;
+				
+			}
+			
+			.container-link{
+				font-size: 16px;
+				text-decoration: none;
+				color: black;
+				margin: 12px 0 20px 0;
+				float: left;
+			}
+			
+			.container-link:hover{
+				color: #1191CE;
+			}
+			
+			.video-img{
+				width: 120px;
+				float: left;
+				margin-right: 12px;
+			}
+			
+			.right-panel{
+				float: left;
+				width: 188px;
+			}
+			
+			.caption{
+				font-weight: bold;
+				//float: left;
+			}
+			
+			.clock-image{
+				width: 18px;
+				
+			}
+			
+			.date{
+				font-size: 13px;
+				color: #5A5A5A;
+				font-family: Arial,Helvetica,freesans,sans-serif;
+				position: relative;
+				top: -4px;
+			}
+			
+			.tech-link2{
+				color: #BB1919;
+				font-size: 13.5px;
+				text-decoration: none;
+				padding-left: 8px;
+				position: relative;
+				top: -20px;
+			}
+			
+			.tech-link2:hover{
+				color: #1191CE;
+			}
+			.left-border{
+				border-left: 1px #DCDCDC solid;
+				//float: left;
 			}
 		</style>
 		
@@ -287,23 +440,118 @@
 		
 		<div class = "clear"></div>
 		
-		<div id = "page-container">
-				
-				<h2>Technology</h2>
-				
-				<h3><a href = "">Android Oreo released by Google</a></h3>
-				
-				<div id = "caption-container">
-					<a href = "">The lastest version of Android adds new features to help 
-					people tackle "notification diarrhoea".
-					<br />
+		<div id = "main-page">
+			<div id = "page-container">
 					
-					<img src = "image/clock.png">
-					<span>5 hours ago</span>
-					</a>
-				
+					<h2>Technology</h2>
 					
+					<h3><a href = "">China relaunches world's fastest train</a></h3>
+					
+					<div id = "article-summary">
+						<a id = "summary" href = "">The high-speed trains will be able to run at speeds of 350km/h 
+						following safety checks on rail lines.
+						<br />
+						
+						<img src = "image/clock.png">
+						<span class = "right-border">7 hours ago</span>
+						</a>
+						
+						<a class = "tech-link right-border" href = "">Technology</a>
+						
+						<a id = "comment-link" href = ""><img id = "comment-img" src = "image/comment.png"><span>262</span></a>
+						
+						<div class = "clear"></div>
+						<hr id = "article-hr" align = "left" >
+					</div>
+					
+					<img id = "main-article-image" src = "image/superspeed-train.png">
 				
+			</div>
+			
+			<div id = "right-panel-articles">
+				<div id = "ad"> 
+					ADVERTISEMENT
+				</div>
+				
+				<div class = "clear"></div>
+				
+				<div id ="watch-listen-container">
+					<p>Watch/Listen</p>
+					<div id = "videos-containers">
+						
+							<a class = "container-link" href = "">
+								<img class = "video-img" src = "image/chatbot.png">
+								<div class = "right-panel">
+									<span class = "caption">Chatbot apps help users prepare for death <br></span>
+									<img class = "clock-image" src = "image/clock.png">
+									<span class = "date">22 August 2017</span>
+									<a class = "tech-link2 left-border" href = "">Technology</a>
+								</div>
+							</a>
+						
+							<a class = "container-link" href = "">
+								<img class = "video-img" src = "image/femaledoctor.png"> 
+								<div class = "right-panel">
+									<span class = "caption">How to stop female doctors from dropping out <br></span>
+									<img class = "clock-image" src = "image/clock.png">
+									<span class = "date">21 August 2017</span>
+									<a class = "tech-link2 left-border" href = "">Magazine</a>
+								</div>
+															
+							</a>
+					
+							<a class = "container-link" href = "">
+								<img class = "video-img" src = "image/onlinegoddess.png"> 
+								<div class = "right-panel">
+									<span class = "caption">The 'online goddess' who earns $450k a year <br></span>
+									<img class = "clock-image" src = "image/clock.png">
+									<span class = "date">18 August 2017</span>
+									<a class = "tech-link2 left-border" href = "">Magazine</a>
+								</div>
+															
+							</a>						
+						
+							<a class = "container-link" href = "">
+								<img class = "video-img" src = "image/unmaskeddruglord.png">
+								<div class = "right-panel">
+									<span>My Google search unmasked a drug lord <br></span>
+									<img class = "clock-image" src = "image/clock.png">
+									<span class = "date">18 August 2017</span>
+									<a class = "tech-link2 left-border" href = "">Magazine</a>
+								</div>
+								
+								
+							</a>
+						
+							<a class = "container-link" href = "">
+								<img class = "video-img" src = "image/robotarium.png"> 
+								<div class = "right-panel">
+									<span class = "caption">‘Robotarium’ gives anyone access to robots <br></span>					
+									<img class = "clock-image" src = "image/clock.png">
+									<span class = "date">14 August 2017</span>
+									<a class = "tech-link2 left-border" href = "">Technology</a>									
+								</div>
+								
+
+							</a>
+						
+							<a class = "container-link" href = "">
+								<img class = "video-img" src = "image/blackemoji.png">
+								<div class = "right-panel">
+									<span class = "caption">Is it OK to use black emojis and gifs? <br></span>
+									<img class = "clock-image" src = "image/clock.png">	
+									<span class = "date">14 August 2017</span>	
+									<a class = "tech-link2 left-border" href = "">World</a>																		
+								</div>
+								
+							</a>
+						
+					</div>
+				</div>
+			</div>
+		
 		</div>
+		
+		
 	</body>
 </html>

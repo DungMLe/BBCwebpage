@@ -1,0 +1,338 @@
+<html>
+
+	<head>
+		<title>Webpage With Style</title>
+		
+		<link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet">
+		
+		<style type = "text/css">
+			
+			.red{
+			
+				color:red;
+			}
+			
+			.large{
+				font-size: 200%;
+			}
+			
+			#green{
+			
+				color: green;
+			}
+			.blue{
+				color: #084493;
+			}
+			.underlined{
+				text-decoration: underline;
+			}
+			
+			#first-section{
+				color: blue;
+				background-color: #81F79F;
+				width: 200px;
+				float:left;
+				position: relative;
+				left: 150px;
+				top:20px;
+				z-index:1;
+			}
+			
+			#second-section{
+				background-color: yellow;
+				width: 400px;
+				float:right;
+				position: relative;
+				left: -100px;
+				z-index:2;
+				opacity: 0.5
+			}
+			
+			.clear-float{
+				clear:both;
+			}
+			
+			#third-section{
+				background-color: #004990;
+				width: 50%;
+				position: relative;
+				left: 200px;
+				top: 50px;
+				z-index:2;
+				opacity: 0.8;
+			}
+			
+			#fourth-section{
+				background-color: red;
+				width: 300px;
+				position: relative;
+				top: -10px;
+				z-index:1;
+			}
+			
+			#fifth-section{
+				background-color: grey;
+				width: 300px;
+				position:fixed;
+				top:sixth-section;
+				left: 10;
+				z-index: 1;
+				opacity: 0.8;
+			}
+			
+			#sixth-section{
+				background-color: green;
+				width: 400px;
+				//height: 5000px;
+				z-index: -1;
+			}		
+
+			#seventh-section{
+				background-color: yellow;
+				width: 200px;
+				margin: 100px 50px;
+				//margin-left: 150px;
+				//float:left;
+			}
+			#eighth-section{
+				background-color: grey;
+				width: 200px;
+				//float:left;			
+				margin: 50px 20px
+			
+			}	
+
+			#ninth-section{
+				color: #C9CBCD;
+				background-color: #004990;
+				width: 300px;
+				//margin: 100px;
+				padding-top: 3px;
+				padding-right: 10px;
+				padding-left: 3px;
+				padding-bottom: 7px;
+			}
+			
+			body{
+				margin: 0;
+				padding: 0;
+			}
+			
+			P{
+				margin: 0;
+				padding: 0;
+			}
+			
+			#first{
+				background-color: red;
+				border-width: 5px 10px 3px 2px;
+				border-style: ridge solid dashed dotted;	
+				border-color: green yellow purple pink;
+			}
+			
+			#second{
+				background-color: blue;
+				border: 5px yellow double;
+			
+			}
+			
+			#third{
+				background-color: green;
+				border: 5px black dashed;	
+				//border-radius: 100px;
+				border-radius: 50%;
+			}
+			
+			.square{
+				width: 100px;
+				height: 100px;
+				margin: 40px;
+				font-size: 16px;
+				font-style: italic;
+				font-family: "Times New Roman", Times, serif;
+				padding: 10px;
+				float: left;
+				
+			}
+			
+			.p1{
+				width: 500px;
+				margin: 20px;
+				font-family: 'Sedgwick Ave', cursive;
+				text-align: right; 
+			}
+			
+			.bold{
+				font-weight: bold;
+
+			}
+			
+			.italic{
+				font-style: italic;
+			}
+			
+			.underlined{
+				text-decoration: underline;
+			}
+			
+			a{
+				text-decoration: none;
+			}
+			
+			a:hover{
+				text-decoration: underline;
+				color: yellow;
+			}
+			
+			a:visited{
+				color: green;
+			}
+			
+			.big{
+				font-size:200%;
+			}
+			
+			.p2{
+				width:500px;
+				background-color: green;
+				text-align: right;
+			}
+			
+			.centered{
+				text-align: center;
+			}
+			
+			.justified{
+				text-align: justify;
+			}
+		</style>
+		
+	</head>
+
+	<body>
+		
+		
+		<h2>Inline CSS</h2>
+		<div  id = "first-section">
+			<p>This sentence style is edit with internal CSS and put in div.</p>
+			<p>A chihuahua is super cute</p>
+		</div>
+		
+		<div id = "second-section">
+			<p style = "color:blue;font-size:200%">This is a sentence for css.</p>
+			<h1 style = "color:green;font-size:150%">CSS is Cool</h1>
+
+			
+		</div>
+		
+	
+			
+		<div class = "clear-float">
+			<h2>Internal CSS</h2>
+			<p class = "red large">This sentence style is edit with internal CSS.</p>
+			<p class = "large">A chihuahua is super cute</p>
+			
+			
+			<p id = "green">id can only be used once per page. <span class = " red underlined">I will give this paragraph id</span></p>
+			
+		</div>
+		
+		
+		<div id = "third-section">
+			<p>Here is the third section. This section will focus on Positioning.</p>
+			<p>Here is the third section. This section will focus on Positioning.</p>		
+		</div>
+		
+		<div id = "fourth-section">
+			<p>Here is the fourth section for this lesson. </p>
+			<p>In this section we are going to learn some more about positioning. </p>
+			<p>Positioning is used to take the element out of the flow of the page</p>
+		</div>
+		
+		
+	    <div id = "fifth-section">
+			<p class = "blue">This section for positioning continue. But with absolute instead of relative</p>
+		</div>
+		
+		<div id = "sixth-section">
+			<p>Here is the sixth section for this lesson. </p>
+			<p>In this section we are going to learn some more about positioning. </p>
+		</div>	
+	
+		
+		<div id = "seventh-section">
+			<p>Margin section: this isi the seventh div</p>
+			<p>Margin make margin surround this box </p>
+			<p>Use margin, if you want the element remains in the flow of the page
+				and spead everything out relative to it</p>
+				
+			<p>margin: 100px; top right bottom left</p>
+			<p>margin: 100px 50px - The top and bottom are 100 pixels, but the 
+			   sides are 50px.</p>
+			<p>margin: 100px 50px 20px 10px - Start from the top and then 
+			   goes around clock-wise</p>
+			<p>margin-left: 100px - Set the left of the margin to 100px. Leave
+			   the rest of the margin as they are. margin-right/top/bottom.</p>
+		</div>
+		
+		<div id = "eighth-section">
+			<p>Section Eighth, what can you do about it?</p>
+			<p>Section Eighth, what can you do about it?</p>
+			<p>Section Eighth, what can you do about it?</p>
+		</div>
+		
+		<p>This paragraph is not floated</p>
+		
+		<div id = "ninth-section">
+			<p>This section will cover padding topic</p>
+			<p>So, what is padding? </br> Answer: Pretty similar as margin but 
+			work inside of the object instead of outside.</p>
+			<p>Can use the same format as margin but replace the word format with padding</p>
+			<p>Notice the position of padding and width. Padding will be on top of width </br>
+			For example, width: 300px; padding-left: 3px; padding-right: 10px; The total is 313</p>
+		</div>
+		
+		</br>
+		
+		<div id = first class = "square">
+			<p>Border section and this is the first paragraph</p>
+		</div>
+		
+		<div id = second class = "square">
+			<p>Border section and this is the second paragraph</p>
+		</div>
+		
+		<div id = third class = "square">
+			<p>Border: width_of_boder color style</p>
+		</div>
+		
+		<br />
+		
+		<div class = "p1 clear-float">
+			
+			<p class = "bold">This section uses Font to change the style of words</p>
+			<p>Google font can be used to chose the style you prefer the most</p>
+			<p class = "italic">Open <span class = "bold">Google Fonts webpage and copy + paste to the head inside </span>linktitle 
+			after that copy the CSS to your webpage source code </p>
+			<p class="underlined">This pargraph is for underlying section</p>
+			<p>If you dont want your link to be underlined, you can use text-decoration: none
+			For example <a href = "">This is a non-underlined link</a></p>
+			<p class = "big">This is BIG</p>
+		</div>
+		
+		<div class="p2">
+			<p>This section is for Aligning text to the right</p>
+			<p class="centered">This text is centered</p>
+			<p class="justified">What is an justified tag? Here it is.
+			text-align: justify helps align the text and stretch it to fit
+			the box it is put inside (stretch sentence to the end of box and go down a line.
+			<br/> lorem ipsum is a helpful tool: You can copy the text in lorem and paste it
+			to your code to test out how the text is going to look like with text-allign</p>
+		</div>
+		
+		<div>
+			<p>This is Styling link: <a href = "https://www.google.com/" target = "_blank">Google.com</a>
+			Couple more pseudo class can be found with pseudo class link</p>
+		</div>
+	</body>
+</html>
