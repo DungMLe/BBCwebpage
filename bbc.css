@@ -1,0 +1,355 @@
+	#topbar{
+				width: 1000px;
+				height: 40px;
+				//background-color: yellow;
+				margin: 0 auto;
+			}
+			
+			body{
+				margin: 0;
+				padding: 0;
+				font-family: Helvetica,Arial,sans-serif;
+			}
+			
+			#logo{
+				margin-top: 7px;
+				width: 85px;
+				float: left;
+				margin-right: 7px;
+			}
+			
+			.top-section{
+				float: left;
+				height: 100%;
+				border-left: 1px #CCCCCC solid;
+				text-decoration: none;
+				color: black;
+			}
+			
+			#topbar a:hover{
+				text-decoration: underline;
+			}
+			
+			#signin-image{
+				width: 33px;
+				height: 27px;
+				margin-top: 5px;
+				margin-left: 6px;
+				float: left;
+			}
+			
+			#signin-text{
+				font-weight: bold;
+				font-size: 13px;
+				margin-left: 5px;
+				position: relative;
+				top: 5px;
+				margin-right: 75px;
+			}
+			
+			.topbar-menu{
+				font-weight: bold;
+				font-size: 67%;
+				padding: 10px 12px 0 12px;
+				height: 30px;
+			}
+			
+			#downarrow{
+				width: 20px;
+				margin: 0px -8px 10px 40px;
+				float: right;
+			}
+			
+			#searchbox{
+				background-color: #E4E4E4;
+				float: left;
+				border: none;
+				font-weight: bold;
+				padding: 5px;
+				margin: 7px 0px 7px 7px;
+			}
+			
+			#magnifyingglass{
+				width: 30px;
+				height: 26.5px;
+				margin-top: 7px;
+			}
+			
+			.clear{
+				clear: both;
+			}
+			
+			#menu-bar-container{
+				background-color: #BB1919;
+				width: 100%;
+				height: 60px;
+			}
+			
+			.menu-bar{
+				width: 1000px;
+				margin: 0 auto;
+			}
+			
+			#newsimage{
+				width: 130px;
+				margin: 9px -5.5px;
+				float: left;
+			}
+			
+			#local-news{
+				border: 1px #C0392B solid;
+				float: right;
+				background-color: #C0392B;
+				height: 35px;
+				padding: 5px 5px 0px 10px;
+				margin: 8px 10px 0 0;
+			}
+			
+			#local-news img{
+				width: 30px;
+			}
+			
+			#local-news a{
+				color: white;
+				text-decoration: none;
+				font-size: 20px;
+				position: relative;
+				top: -8px;
+				//float: right;
+			}
+			
+			#local-news a:hover{
+				text-decoration: underline;
+			}
+			
+			#second-menubar{
+				width: 100%;
+				background-color: #A91717;
+				height: 43px;
+				margin: 0 auto;
+			}
+			
+			.secondbar-menu{
+				color: white;
+				border-right: 1.5px #BB4545 solid;
+				font-size: 15px;
+				padding: 1px 14px 1px 0;
+				position: relative;
+				top: 4px;
+				text-decoration: none;
+			}
+			
+			.left-allign{
+				padding-left: 7px;
+			}
+			
+			.menu-bar a:hover{
+				text-decoration: underline;
+			}
+			
+			.no-border{
+				border-right: none;
+			}
+			
+			#downarrowimage2{
+				height: 24px;
+				position: relative;
+				top: 12px;
+				left: -18px;
+			}
+			
+			#main-page{
+				margin: 0 auto;
+				width: 1000px;
+			}
+			
+			#page-container{
+				width: 670px;
+				float:left;
+				
+			}
+			
+			h2 {
+				width: 100px;
+				font-weight: normal;
+				font-size: 20px;
+				margin-top: 10px;
+				border-bottom: 3px #BB1919 solid;
+			}
+			
+			#page-container h3 a{
+				font-size: 32px;
+				color: #5A5A5A;
+				margin-top: 10px;
+				text-decoration: none;
+			}
+			
+			#page-container h3 a:hover{
+				color: #1167A8;
+			}
+			
+			#article-summary {
+				font-size: 15px;
+				width: 250px;
+				float:left;
+			}
+			
+			#summary{
+				text-decoration:none;
+				color: #5A5A5A;
+				position: relative;
+				top: -7px;
+			}
+			
+			#article-summary img{
+				width: 20px;
+				margin: 4px 0 3px 0;
+				float: left;
+			}
+			
+			#article-summary span{
+				position: relative;
+				left: 2px;
+				top: 7px;
+				font-size: 14px;
+				padding-right: 7px;
+			}
+			
+			.right-border{
+				border-right: 1px #DCDCDC solid;
+				float:left;
+			}
+			
+			.tech-link{
+				color: #BB1919;
+				position: relative;
+				left: 9px;
+				top: 7px;
+				font-size: 14px;
+				padding: 1px 7px 0px 0;
+				text-decoration: none;
+			}
+			
+			.tech-link:hover{
+				color: #1191CE;
+			}
+			
+			#comment-img{
+				position:relative;
+				left: 13px;
+				top:-3px;
+				float: right;
+			}
+			
+			#comment-link {
+				text-decoration:none;
+				color: black;
+			}
+			
+			#comment-link span{
+				position: relative;
+				left: 14px;
+				top: 7px;
+			}
+			
+			#main-article-image{
+				width: 400px;
+				position: relative;
+				top: -10px;
+				left: 13px;
+			}
+			
+			#article-hr{
+				width: 50px;
+				border-color: red;
+			}
+			
+			#right-panel-articles{
+				width: 320x;
+				float: right;
+				
+			}
+			
+			#ad{
+				width: 105px;
+				color: #505050;
+				font-size: 12px;
+				font-weight: bold;
+				position: relative;
+				top: 60px;
+				left: 107.5px;
+			}
+			
+			#watch-listen-container{
+				border-left: 1px #DBDBDB solid;
+				height: 800px;
+				width: 320px;
+				position: relative;
+				top: 95px;
+			}
+			
+			#watch-listen-container p{
+				position: relative;
+				left: 15px;
+				font-size: 125%;
+				color: #404040;
+				
+			}
+			
+			.container-link{
+				font-size: 16px;
+				text-decoration: none;
+				color: black;
+				margin: 12px 0 20px 0;
+				float: left;
+			}
+			
+			.container-link:hover{
+				color: #1191CE;
+			}
+			
+			.video-img{
+				width: 120px;
+				float: left;
+				margin-right: 12px;
+			}
+			
+			.right-panel{
+				float: left;
+				width: 188px;
+			}
+			
+			.caption{
+				font-weight: bold;
+				//float: left;
+			}
+			
+			.clock-image{
+				width: 18px;
+				
+			}
+			
+			.date{
+				font-size: 13px;
+				color: #5A5A5A;
+				font-family: Arial,Helvetica,freesans,sans-serif;
+				position: relative;
+				top: -4px;
+			}
+			
+			.tech-link2{
+				color: #BB1919;
+				font-size: 13.5px;
+				text-decoration: none;
+				padding-left: 8px;
+				position: relative;
+				top: -20px;
+			}
+			
+			.tech-link2:hover{
+				color: #1191CE;
+			}
+			.left-border{
+				border-left: 1px #DCDCDC solid;
+				//float: left;
+			}
